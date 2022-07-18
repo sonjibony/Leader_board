@@ -77,6 +77,34 @@ hr{
     grid-template-columns: repeat(2,1fr);
     grid-row-gap: 26px;
 }
-
-
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    
+}
+/*.course{
+    height: 252px;
+    width: 270px;
+    background-color: #ffc014;
+    margin-right: 10px;
+}*/
+ .course .banner img{
+height: 104px;
+width: 224px;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #ffc014;
+}
+.fa-star.empty{
+    color: #aeaeae;
+}
 
