@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e5e5
+}
+.container{
+    background-color: #fff;
+    width: 870px;
+    height: 680px;
+    padding: 33px;
+    margin-top: 21px;
+}
+.title{
+    color: #562EFF;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+.top-players{
+    margin-bottom: 30px;
+}
+
+.player img{
+height: 56px;
+width: 56px;
+
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 25px;
+}
+.player-name{
+    margin-left: 16px;
+    font-size: 18px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+}
+.blog .thumbnail img{
+    width: 177px;
+    height: 117px;
+}
+.blog{
+    display: flex;
+}
+.blog-info{
+    margin-left: 16px;
+}
+.blog-title{
+    font-size: 20px;
+}
+.author{
+    color: #9f9f9f;
+    font-size: 18px;
+}
+.author a{
+    text-decoration: none;
+    color: #562EFF;
+    font-size: 18px;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 26px;
+}
+
+
+
